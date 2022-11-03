@@ -2,7 +2,7 @@ export default function Tools() {
     const formatter = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 });
     return {
         /**
-         * Last edited : xx XXX xx
+         * Last edited : 03 Nov 2022
          * --------------------------------------------------
          * Convert number to currency
          * --------------------------------------------------
@@ -11,7 +11,7 @@ export default function Tools() {
             return formatter.format(str);
         },
         /**
-         * Last edited : xx XXX xx
+         * Last edited : 03 Nov 2022
          * --------------------------------------------------
          * Convert currency to number
          * --------------------------------------------------

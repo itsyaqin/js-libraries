@@ -1,6 +1,6 @@
 export default class FormValidation {
     /**
-     * Last edited : xx XXX xx
+     * Last edited : 03 Nov 2022
      * --------------------------------------------------
      * CONSTRUCTOR
      * --------------------------------------------------
@@ -35,7 +35,7 @@ export default class FormValidation {
     }
 
     /**
-     * Last edited : xx XXX xx
+     * Last edited : 03 Nov 2022
      * --------------------------------------------------
      * Validation
      * --------------------------------------------------
@@ -118,7 +118,7 @@ export default class FormValidation {
     }
 
     /**
-     * Last edited : xx XXX xx
+     * Last edited : 03 Nov 2022
      * --------------------------------------------------
      * Display Message
      * --------------------------------------------------
@@ -142,7 +142,7 @@ export default class FormValidation {
     }
 
     /**
-     * Last edited : xx XXX xx
+     * Last edited : 03 Nov 2022
      * --------------------------------------------------
      * Message LANG
      * --------------------------------------------------
