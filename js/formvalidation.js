@@ -13,8 +13,11 @@ export default class FormValidation {
                     this._options[prop] = params[prop];
                 }
             }
+            
+            if(!this._options.form instanceof Element && !this._options.form instanceof Document){
+                this._options.form = document.querySelector(this._options.form);
+            }
 
-            this._options.form = document.querySelector(this._options.form);
             //--Check if form is NOT there
             if (!this._options.form)
                 throw "Form not found!";
